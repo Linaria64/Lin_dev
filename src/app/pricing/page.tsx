@@ -1,4 +1,7 @@
 import Nav from '../component/Navbar';
+import Footer from '../component/Footer';
+import NeonButton from "../component/Button";
+
 
 export default function Page() {
   return (
@@ -7,9 +10,13 @@ export default function Page() {
 
 <div>
   <h1>
-    Bienvenue dans la page pricing
+    Welcome to Pricing Page
   </h1>
 </div>
+<div>
+<Footer/>
+</div>
+
     </div>
   );
    
