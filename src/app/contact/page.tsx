@@ -1,21 +1,14 @@
 import Nav from '../component/Navbar';
 import Footer from '../component/Footer';
-import NeonButton from "../component/Button";
-
+import ContactForm from '../component/ContactForm';
 export default function Page() {
   return (
     <div>
-          <Nav/>
+      <Nav/>
 
-<div>
-  <h1>
-    Welcome to Contact Page 
-  </h1>
-</div>
+      <ContactForm/>
 
-<div>
-<Footer/>
-</div>
+      <Footer/>
     </div>
   );
    

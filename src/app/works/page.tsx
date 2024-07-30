@@ -1,24 +1,19 @@
 import Nav from '../component/Navbar';
 import Footer from '../component/Footer';
-import NeonButton from "../component/Button";
+import Card from '../component/Card'
 
 
 export default function Page() {
   return (
     <div>
-          <Nav/>
 
-<div>
-  <h1>
-    Welcome to Works Page
-  </h1>
-</div>
+      <Nav/>
 
+      <Card/>
 
-
-<div>
-<Footer/>
-</div>
+      <Card/>
+      
+      <Footer/>
 
     </div>
   );
