@@ -3,6 +3,8 @@ import Image from "next/image";
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import logo from "../../../public/Logo_lin-dev.png";
+import { IoMdPerson } from "react-icons/io";
+import { IoIosLaptop } from "react-icons/io";
  
 export default function Links() {
   
@@ -11,37 +13,36 @@ export default function Links() {
 
   return (
     <>
-    <div className="flex w-2/4 mx-auto">
-      
-    <div className="w-full my-10">
+    <div className="flex w-3/4  mx-auto">
+    <div className="w-100% my-10  w-full">
       <Image className="rounded-lg"
       src={logo}
       alt="Logo Lin_Dev Néon"
-      width={80}
-      height={80}
+      width={150}
+      height={150}
       />
     </div>
 
-    <div className="bg-[#1B1B1E] rounded-lg my-10">
+    <div className="bg-[#1B1B1E] rounded-lg my-10 max-h-20  max-w-1/2">
       <nav>
-        <ul className="flex gap-8 p-5">
-          <li>
+        <ul className="flex gap-8 p-2 text-center items-center h-20  text-white">
+          <li className="bg-blue-600 rounded-lg p-2">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
-              About
+            <IoMdPerson className="w-12 h-12"/>
             </Link>
           </li>
-          <li>
+          <li className="bg-blue-950 rounded-lg p-2">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/works">
-              Works
+            <IoIosLaptop  className="w-12 h-12"/>
             </Link>
           </li>
-          <li>
+          <li className="bg-blue-950 rounded-lg p-2">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/pricing">
               Pricing
             </Link>
           </li>
 
-          <li>
+          <li className="bg-blue-950 rounded-lg p-2">
             <Link
               className={`link ${pathname === '/' ? 'active' : ''}`}
               href="/contact"
@@ -49,6 +50,15 @@ export default function Links() {
               Contact
             </Link>
           </li>
+          <li className="bg-blue-950 rounded-lg p-2">
+            <Link
+              className={`link ${pathname === '/' ? 'active' : ''}`}
+              href="/contact"
+            >
+              Téléchargement
+            </Link>
+          </li>
+
         </ul>
       </nav>
     </div>
