@@ -1,11 +1,13 @@
 import Nav from './component/Navbar';
 import Footer from './component/Footer';
 import NeonButton from "./component/Button";
-import LinkButton from './component/LinkButton'
+import LinkButton from './component/LinkButton';
+
+
 
 export default function Page() {
   return (
-  <div>
+  <div className="bg-background-lin_dev h-screen w-full bg-cover">
 
     <div>
       <Nav/>

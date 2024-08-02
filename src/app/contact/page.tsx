@@ -3,7 +3,7 @@ import Footer from '../component/Footer';
 import ContactForm from '../component/ContactForm';
 export default function Page() {
   return (
-    <div>
+    <div className="bg-background-lin_dev h-screen w-full bg-cover">
       <Nav/>
 
       <ContactForm/>

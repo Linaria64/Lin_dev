@@ -4,7 +4,7 @@ import SubCard from '../component/SubCard'
 
 export default function Page() {
   return (
-  <div>
+  <div className="bg-background-lin_dev h-screen w-full bg-cover">
       <Nav/>
 
    

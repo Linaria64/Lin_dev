@@ -5,7 +5,7 @@ import Card from '../component/Card'
 
 export default function Page() {
   return (
-    <div>
+    <div className="bg-background-lin_dev h-screen w-full bg-cover">
 
       <Nav/>
 
