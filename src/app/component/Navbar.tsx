@@ -3,8 +3,11 @@ import Image from "next/image";
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import logo from "../../../public/Logo_lin-dev.png";
-import { IoMdPerson } from "react-icons/io";
+import { IoPersonOutline } from "react-icons/io5";
 import { IoIosLaptop } from "react-icons/io";
+import { IoHomeOutline } from "react-icons/io5";
+import { IoChatbubblesOutline } from "react-icons/io5";
+import { MdOutlineFileDownload } from "react-icons/md";
  
 export default function Links() {
   
@@ -25,20 +28,20 @@ export default function Links() {
 
     <div className="bg-[#1B1B1E] rounded-lg my-10 max-h-20  max-w-1/2">
       <nav>
-        <ul className="flex gap-8 p-2 text-center items-center h-20  text-white">
-          <li className="bg-blue-600 rounded-lg p-2">
+        <ul className="flex gap-8 p-2 text-center items-center h-20  text-white opacity-70">
+          <li className="bg-blue-950 rounded-lg p-2">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
-            <IoMdPerson className="w-12 h-12"/>
+              <IoPersonOutline  className="w-12 h-12"/>
             </Link>
           </li>
           <li className="bg-blue-950 rounded-lg p-2">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/works">
-            <IoIosLaptop  className="w-12 h-12"/>
+             <IoIosLaptop  className="w-12 h-12"/>
             </Link>
           </li>
           <li className="bg-blue-950 rounded-lg p-2">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/pricing">
-              Pricing
+            <IoHomeOutline className="w-12 h-12" />
             </Link>
           </li>
 
@@ -47,7 +50,7 @@ export default function Links() {
               className={`link ${pathname === '/' ? 'active' : ''}`}
               href="/contact"
             >
-              Contact
+              <IoChatbubblesOutline className="w-12 h-12" />
             </Link>
           </li>
           <li className="bg-blue-950 rounded-lg p-2">
@@ -55,7 +58,7 @@ export default function Links() {
               className={`link ${pathname === '/' ? 'active' : ''}`}
               href="/contact"
             >
-              Téléchargement
+              <MdOutlineFileDownload className="w-12 h-12"/>
             </Link>
           </li>
 
