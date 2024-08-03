@@ -17,11 +17,8 @@ export default function Page() {
         <h1>INSERT PICTURE</h1>
       </div>  
 
-      <div>
-        <h1> Hello My name is Dorian Soudan Im</h1>
-      </div>
-
-      <div>
+      <div className=''>
+        <h1 className=''> Hello My name is Dorian Soudan Im</h1>
         <h2>
         Passionate about technological innovation, Im a versatile full-stack developer and web designer 
         with artificial intelligence skills, ready to turn your ideas into robust, aesthetically pleasing solutions.      
