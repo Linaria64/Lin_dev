@@ -9,7 +9,9 @@ import Face from '../../public/laptop.jpg';
 
 export default function Page() {
   return (
-  <div className="bg-background-lin_dev h-screen w-full bg-cover">
+  <main className=" flex flex-col bg-background-lin_dev min-h-screen min-w-full bg-cover">
+    <div className='flex-grow'>
+
     <div>
       <Nav/>
     </div>
@@ -31,23 +33,26 @@ export default function Page() {
         Passionate about technological innovation, Im a versatile full-stack developer and web designer 
         with artificial intelligence skills, ready to turn your ideas into robust, aesthetically pleasing solutions.      
         </h2>
+
+        <div className='flex w-full my-16'>  
+    <NeonButton props=""/>
+
+    <NeonButton/>
+  </div>
+
       </div>
     </div>
-
+<LinkButton/>
    
-  
-    <NeonButton/>
-
-    <NeonButton/>
-
-    <LinkButton/>
+    
 
     <h2>Insert SVG arrow here</h2>
 
-    <div>
+    <div className='bg-[#1D1D23] text-center text-white w-1/2 p-2 mx-auto mt-6 rounded-lg'>
       <Footer/>
     </div>
-  </div>
+    </div>
+  </main>
   )
    
 }
