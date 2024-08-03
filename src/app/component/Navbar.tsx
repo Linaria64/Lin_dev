@@ -6,7 +6,7 @@ import Link from 'next/link'
 import logo from "../../../public/Logo_lin-dev.png";
 import { IoPersonOutline } from "react-icons/io5";
 import { IoIosLaptop } from "react-icons/io";
-import { IoHomeOutline } from "react-icons/io5";
+import { MdOutlinePriceChange } from "react-icons/md";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
  
@@ -63,7 +63,7 @@ export default function Links() {
           </li>
           <li id="hover_element" className="bg-[#333] rounded-lg p-2 hover:bg-opacity-30 hover:shadow-inner_shadow_nav">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/pricing">
-            <IoHomeOutline className="w-10 h-10" />
+            <MdOutlinePriceChange className="w-10 h-10" />
             </Link>
           </li>
 
