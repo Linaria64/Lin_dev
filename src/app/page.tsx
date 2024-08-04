@@ -48,9 +48,8 @@ export default function Page() {
 
     <h2>Insert SVG arrow here</h2>
 
-    <div className='bg-[#1D1D23] text-center text-white w-1/2 p-2 mx-auto mt-6 rounded-lg'>
-      <Footer/>
-    </div>
+          <Footer/>
+  
     </div>
   </main>
   )
