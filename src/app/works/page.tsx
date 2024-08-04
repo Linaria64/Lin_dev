@@ -1,6 +1,8 @@
 import Nav from '../component/Navbar';
 import Footer from '../component/Footer';
 import Card from '../component/Card'
+import Arrow from '../component/Arrow';
+
 
 
 export default function Page() {
@@ -13,6 +15,8 @@ export default function Page() {
 
       <Card/>
       
+      <Arrow/>
+
       <Footer/>
 
     </div>

@@ -4,13 +4,14 @@ import NeonButton from "./component/Button";
 import LinkButton from './component/LinkButton';
 import Image from "next/image";
 import Face from '../../public/laptop.jpg';
+import Arrow from './component/Arrow';
 
 
 
 export default function Page() {
   return (
   <main className=" flex flex-col bg-background-lin_dev min-h-screen min-w-full bg-cover">
-    <div className='flex-grow'>
+    <div>
 
     <div>
       <Nav/>
@@ -46,7 +47,7 @@ export default function Page() {
    
     
 
-    <h2>Insert SVG arrow here</h2>
+    <Arrow/>
 
           <Footer/>
   

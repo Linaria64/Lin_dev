@@ -1,6 +1,8 @@
 import Nav from '../component/Navbar';
 import Footer from '../component/Footer';
 import SubCard from '../component/SubCard'
+import Arrow from '../component/Arrow';
+
 
 export default function Page() {
   return (
@@ -16,7 +18,7 @@ export default function Page() {
  
       <SubCard/>
 
-
+      <Arrow/>
 
       <Footer/>
 

@@ -1,5 +1,4 @@
 'use client'
-import SubCard from './SubCard'
 
 export default function Card () {
     return (
@@ -8,9 +7,30 @@ export default function Card () {
                 <div><h2>Enter a title here</h2></div>
             </div>
 
-            <SubCard/>
-            <SubCard/>
-            <SubCard/>
+         <div>
+            <div>
+                <div><h2>Enter a title here</h2></div>
+                <div><h2>Add a picture is</h2></div>
+                <div><h2>Add View more text</h2></div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <div><h2>Enter a title here</h2></div>
+                <div><h2>Add a picture is</h2></div>
+                <div><h2>Add View more text</h2></div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <div><h2>Enter a title here</h2></div>
+                <div><h2>Add a picture is</h2></div>
+                <div><h2>Add View more text</h2></div>
+            </div>
+        </div>
+           
 
         </div>
     )
