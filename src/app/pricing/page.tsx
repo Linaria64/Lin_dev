@@ -9,7 +9,9 @@ export default function Page() {
   <div className="bg-background-lin_dev h-screen w-full bg-cover">
       <Nav/>
 
-   
+   <div className='flex gap-5'>
+
+
       <SubCard/>
 
   
@@ -17,7 +19,7 @@ export default function Page() {
  
  
       <SubCard/>
-
+      </div>
       <Arrow/>
 
       <Footer/>
