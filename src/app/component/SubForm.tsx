@@ -8,11 +8,11 @@ export default function ContactForm () {
             </div>
             <br />
             
-            <div className="border-2 border-blue-800 w-3/4 mx-auto rounded-lg "><p className="border-2 border-blue-500 w-2/4 mx-auto p-2 my-2 rounded-lg">Strudergnach</p></div>
+            <div className="border-2 border-blue-800 w-3/4 mx-auto rounded-lg "><input placeholder="Entrer votre Nom" className="bg-transparent border-2 border-blue-500 w-2/4 mx-auto p-2 my-2 rounded-lg"></input></div>
             <br />
-            <div className="border-2 border-blue-800 w-3/4 mx-auto rounded-lg"><p className="border-2 border-blue-500 w-2/4 mx-auto p-2 my-2 rounded-lg">Leo</p></div>
+            <div className="border-2 border-blue-800 w-3/4 mx-auto rounded-lg"><input placeholder="Entrer Votre Prénom" className="bg-transparent border-2 border-blue-500 w-2/4 mx-auto p-2 my-2 rounded-lg"></input></div>
             <br />
-            <div className="border-2 border-blue-800 w-3/4 mx-auto rounded-lg"><p className="border-2 border-blue-500 w-2/4 mx-auto p-2 my-2 rounded-lg">Imanemail@mail.xx</p></div>
+            <div className="border-2 border-blue-800 w-3/4 mx-auto rounded-lg"><input placeholder="Entre votre Adresse Mail" className="bg-transparent border-2 border-blue-500 w-2/4 mx-auto p-2 my-2 rounded-lg"></input></div>
         </div>
     )
 } 
