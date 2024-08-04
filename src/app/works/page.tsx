@@ -10,10 +10,12 @@ export default function Page() {
     <div className="bg-background-lin_dev h-screen w-full bg-cover">
 
       <Nav/>
+<div className='flex gap-5'>
+        <Card/>
 
       <Card/>
 
-      <Card/>
+</div>
       
       <Arrow/>
 

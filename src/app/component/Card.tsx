@@ -2,9 +2,9 @@
 
 export default function Card () {
     return (
-        <div>
+        <div className="bg-gradient-to-r from-[#181818] via-[#44424A] to-[#BFBFBF] w-1/4 rounded-lg mx-auto text-center">
             <div>
-                <div><h2>Enter a title here</h2></div>
+                <div><h2>Design</h2></div>
             </div>
 
          <div>
