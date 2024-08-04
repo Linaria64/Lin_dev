@@ -48,7 +48,7 @@ export default function Page() {
       </div>  
 
       <div>
-        <h1 className='text-5xl bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent'> Hello My name is Dorian Soudan Im</h1>
+        <h1 className='text-5xl bg-gradient-to-tl from-[#E2E2F0]   to-[#7D86E2] from-30% bg-clip-text text-transparent '> Hello My name is <br /> Dorian Soudan <br />Im</h1>
         <br />
         <h2 className='text-lg'>
         Passionate about technological innovation, Im a versatile full-stack developer and web designer 
