@@ -38,7 +38,7 @@ export default function Links() {
 
   return (
     <>
-    <div className="flex w-3/4 m-auto gap-2">
+    <div className="flex w-3/4 mx-auto gap-2">
     <div className="my-2 w-full">
       <Image className="rounded-lg"
       src={logo}
@@ -49,7 +49,7 @@ export default function Links() {
     </div>
 
     <div className="bg-[#1B1B1E] rounded-lg mt-8 max-h-16 bg-opacity-50">
-      <nav>web
+      <nav>
         <ul className="flex gap-8 p-1 items-center  text-white  ">
           <li id="hover_element" className="bg-[#333] rounded-lg p-3 hover:bg-opacity-30 hover:shadow-inner_shadow_nav">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
@@ -58,7 +58,7 @@ export default function Links() {
           </li>
           <li id="hover_element" className="bg-[#333] rounded-lg p-3 hover:bg-opacity-30 hover:shadow-inner_shadow_nav">
             <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/works">
-             <IoIosLaptop  className="w-8 h-8"/>
+            <IoIosLaptop  className="w-8 h-8"/>
             </Link>
           </li>
           <li id="hover_element" className="bg-[#333] rounded-lg p-3 hover:bg-opacity-30 hover:shadow-inner_shadow_nav">

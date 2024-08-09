@@ -30,10 +30,10 @@ import Arrow from './component/Arrow';
  */
 export default function Page() {
   return (
-    <main className=" flex flex-col bg-background-lin_dev min-h-screen min-w-full bg-cover">
+    <main className="  bg-background-lin_dev h-screen min-w-full bg-cover">
       <Nav/>
       
-      <div className='text-white flex h-2/4 w-full gap-5'>
+      <div className='text-white flex w-full  gap-5'>
 
 
       <div className='w-1/2 ml-10'>
