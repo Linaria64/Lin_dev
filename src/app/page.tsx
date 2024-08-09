@@ -30,14 +30,16 @@ import Arrow from './component/Arrow';
  */
 export default function Page() {
   return (
-    <main className="  bg-background-lin_dev h-screen min-w-full bg-cover">
-      <Nav/>
+    <main className=" flex flex-col  bg-background-lin_dev min-h-screen min-w-full bg-cover">
+      <div>
+        <Nav/>
+      </div>
       
-      <div className='text-white flex w-full  gap-5'>
+      <div className='text-white flex w-full  flex-1  '>
 
 
-      <div className='w-1/2 ml-10'>
-      <Image className="rounded-lg"
+      <div className='w-1/2 mt-24'>
+      <Image className="rounded-lg mx-auto"
       src={Face}
       alt="Logo Lin_Dev Néon"
       width={300}
@@ -47,15 +49,15 @@ export default function Page() {
   <LinkButton/>
       </div>  
 
-      <div>
+      <div className='mt-24'>
         <h1 className='text-5xl bg-gradient-to-tl from-[#E2E2F0]   to-[#7D86E2] from-30% bg-clip-text text-transparent '> Hello My name is <br /> Dorian Soudan <br />Im</h1>
         <br />
-        <h2 className='text-lg'>
+        <h2 className='text-2xl w-1/2'>
         Passionate about technological innovation, Im a versatile full-stack developer and web designer 
         with artificial intelligence skills, ready to turn your ideas into robust, aesthetically pleasing solutions.      
         </h2>
 
-        <div className='flex w-full my-16'>  
+        <div className='flex my-10 gap-8'>  
     <NeonButton props=""/>
 
     <NeonButton/>
@@ -64,11 +66,14 @@ export default function Page() {
       </div>
     </div>
 
-   
-    
-    <Arrow/>
+<div>
+      <Footer/>
 
-          <Footer/>
+</div>
+    
+
+
+      
   
   </main>
   )
